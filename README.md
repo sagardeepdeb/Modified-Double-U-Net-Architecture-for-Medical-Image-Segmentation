@@ -66,11 +66,13 @@ The performance of our proposed model has been evaluated on five different medic
 
 ## For more details please refer to the original paper.
 
-# The above paper was also accepted for poster presentation at Graduate Students' Day event that was held at the sidelines of National Conference on Communications 2023. More details about the event can be found [here](https://event.iitg.ac.in/ncc2023/gsd.php).  
-
 # Code explanation
 
-The initial experiments were conducted on Data Science Bowl Challenge Dataset (DSB) and the details about the same are given in the table above. DSB dataset is selected as the size of the images here is 128 X 128 X 3. It is the minimum among all the five datasets used and thus requires minimum training and testing time. All the experiments were conducted on Google Colaboratory. The .ipynb code attached contains experiments conducted on the same dataset. It also conatins comparison with U-Net, BCDU-Net, and various kinds of Double U-Net. Details about the same are given in the Appendix section of the original paper.  
+The initial experiments were conducted on Data Science Bowl Challenge Dataset (DSB) and the details about the same are given in the table above. DSB dataset is selected as the size of the images here is 128 X 128 X 3. It is the minimum among all the five datasets used and thus requires minimum training and testing time. All the experiments were conducted on Google Colaboratory. The .ipynb code attached contains experiments conducted on the same dataset. It also conatins comparison with U-Net, BCDU-Net, and various kinds of Double U-Net. Details about the same are given in the Appendix section of the original paper. 
+
+# The above paper was also accepted for poster presentation at Graduate Students' Day event that was held at the sidelines of National Conference on Communications 2023. More details about the event can be found [here](https://event.iitg.ac.in/ncc2023/gsd.php).  
+
+ 
 
 ## Citation
 Please cite our paper if you find the work useful: 
