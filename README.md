@@ -9,8 +9,11 @@ The performance of our proposed model has been evaluated on five different medic
 # Model description 
 
 As the name suggests, the modified double U-Net consists of two U-Nets stacked over each other. As shown in figure below,
-![!Figure1](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/ModifiedDoubleUNet.png)
-
+<p align="center">
+<img src="Images/ModifiedDoubleUNet.png" width=60% height=60% alt>
+  
+<em>Figure 1: Illustration  of  the proposed model </em>
+   </p>
 
 the modified Double U-Net begins with network1 or the first U-Net, which is built with an ensemble of VGG-19, Xception Net, and DenseNet121. The ensemble of three different pre-trained networks act as an encoder1. The output1 is collected from the end of the network1 and is multiplied with the original input before passing it to the second network or the second U-Net. It is expected that the output created at the end of the network1 may be enhanced further by retrieving the input image and its related mask once again and concatenating it with Output2. It will result in a better segmentation mask than the previous one.The squeeze-and-excite block is used in network 1's encoder and network 2's encoder and decoder to eliminate unnecessary information and pass only the important ones and ASPP (Atrous Spatial Pyramid Pooling) has been a popular choice for modern segmentation architecture because it helps to extract high-resolution feature maps that lead to superior performance.
 
@@ -29,12 +32,37 @@ The performance of our proposed model has been evaluated on five different medic
 
 5.INBreast dataset
 
-![alt-text-1](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/result1.PNG "title-1") ![alt-text-2](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/result2.PNG "title-2")
+<p align="left">
+<img src="Images/result1.PNG" width=40% height=40% alt>
+  
+<em>Figure 2: Results on Data Science Bowl Challenge-2018 </em>
+   </p>
 
 
-![alt-text-1](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/result3.PNG "title-1") ![alt-text-2](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/instrument.PNG "title-2")
+<p align="left">
+<img src="Images/result2.PNG" width=40% height=40% alt>
+  
+<em>Figure 3: Results on CVC-ClinicDB dataset  </em>
+   </p>
 
-![Figure](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/result5.PNG)
+<p align="left">
+<img src="Images/result3.PNG" width=40% height=40% alt>
+  
+<em>Figure 4: ISIC-2018 challenge dataset  </em>
+   </p>
+
+<p align="left">
+<img src="Images/instrument.PNG" width=40% height=40% alt>
+  
+<em>Figure 5: Few segmentation results shown on Kvasir-Instrument dataset  </em>
+   </p>
+   
+<p align="left">
+<img src="Images/result5.PNG" width=40% height=40% alt>
+  
+<em>Figure 6: Few results shown on INBreast dataset  </em>
+   </p>
+
 
 ## For more details please refer to the original paper.
 
