@@ -36,7 +36,9 @@ The performance of our proposed model has been evaluated on five different medic
 
 ![Figure](https://github.com/sagardeepdeb/Modified-Double-U-Net-Architecture-for-Medical-Image-Segmentation/blob/main/Images/result5.PNG)
 
-## For more details please refer to the paper.
+## For more details please refer to the original paper.
+
+# The above paper was also accepted for poster presentation at Graduate Students' Day event that was held at the sidelines of National Conference on Communications 2023. More details about the event can be found [here](https://event.iitg.ac.in/ncc2023/gsd.php).  
 
 
 ## Citation
